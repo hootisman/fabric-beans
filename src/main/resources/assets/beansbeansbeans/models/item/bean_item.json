@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures":{
+        "layer0":"beansbeansbeans:item/bean_item"
+    },
+    "overrides":[
+        {
+            "predicate": {
+                "bean_count":0
+            },
+            "model": "beansbeansbeans:item/bean_item"
+        },
+        {
+            "predicate":{
+                "bean_count":1
+            },
+            "model":"beansbeansbeans:item/test_bean"
+        }
+    ]
+
+}
