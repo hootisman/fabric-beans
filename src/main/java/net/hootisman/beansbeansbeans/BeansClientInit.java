@@ -11,7 +11,7 @@ public class BeansClientInit implements ClientModInitializer{
     @Override
     public void onInitializeClient(){
         ModelPredicateProviderRegistry.register(BeansAllItems.BEAN_ITEM, new Identifier("bean_count"), (stack, world, entity, seed)->{
-            return (float)(stack.getCount()/stack.getMaxCount());
+            return ((float)stack.getCount())/((float)stack.getMaxCount());
         });
     }
 }

@@ -11,10 +11,16 @@
             "model": "beansbeansbeans:item/bean_item"
         },
         {
+            "predicate": {
+                "bean_count":0.146
+            },
+            "model": "beansbeansbeans:item/bean_item_6"
+        },
+        {
             "predicate":{
                 "bean_count":1
             },
-            "model":"beansbeansbeans:item/test_bean"
+            "model":"beansbeansbeans:item/bean_item_41"
         }
     ]
 
