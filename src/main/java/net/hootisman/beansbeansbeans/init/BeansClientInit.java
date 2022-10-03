@@ -1,4 +1,4 @@
-package net.hootisman.beansbeansbeans;
+package net.hootisman.beansbeansbeans.init;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.hootisman.beansbeansbeans.registry.BeansItems;

@@ -1,6 +1,6 @@
 package net.hootisman.beansbeansbeans.mixin;
 
-import net.hootisman.beansbeansbeans.BeansModInit;
+import net.hootisman.beansbeansbeans.init.BeansModInit;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.hootisman.beansbeansbeans.BeansModInit"
+      "net.hootisman.beansbeansbeans.init.BeansModInit"
     ],
     "client":[
-      "net.hootisman.beansbeansbeans.BeansClientInit"
+      "net.hootisman.beansbeansbeans.init.BeansClientInit"
     ]
   },
   "mixins": [
